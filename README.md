@@ -9,16 +9,16 @@
 
 ## Requirements
 
-	* User need to install CPAN libraries
-		* LWP::UserAgent:
+	• User need to install CPAN libraries
+		• LWP::UserAgent:
 			sudo perl -MCPAN -e shell
-		    install LWP::UserAgent
-		* LWP::HTTPS
+		        install LWP::UserAgent
+		• LWP::HTTPS
 
 ## Installation and Usage
-	* open Terminal and change the directory to the folder of the program
-	* commands to run the program:
-		* perl windex-build.pl (output filename) (start url) (excludeFile) (depth)* (output directory)*
-		*  perl windex-build.pl test.txt http://en.wikipedia.org/wiki/Stack_overflow ./exclude.txt 3
+	• open Terminal and change the directory to the folder of the program
+	• commands to run the program:
+		• perl windex-build.pl (output filename) (start url) (excludeFile) (depth)* (output directory)*
+		•  perl windex-build.pl test.txt http://en.wikipedia.org/wiki/Stack_overflow ./exclude.txt 3
 
 
